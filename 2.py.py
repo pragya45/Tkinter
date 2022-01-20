@@ -1,0 +1,10 @@
+from tkinter import*
+root=Tk()
+root.geometry("400x250")
+bill=Label(root,text="Bill").place(x=60,y=120)
+e1=Entry(root).place(x=190,y=120)
+Transactiondate=Label(root,text="Transaction Date").place(x=60,y=160)
+e2=Entry(root).place(x=190,y=160)
+Invoicedate=Label(root,text="Invoice Date").place(x=60,y=200)
+e3=Entry(root).place(x=190,y=200)
+root.mainloop()
