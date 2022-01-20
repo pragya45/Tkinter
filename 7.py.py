@@ -1,0 +1,18 @@
+from tkinter import*
+wn=Tk()
+wn.title("Registration")
+firstname=Label(wn,text="First Name").grid(row=0,column=0)
+e1=Entry(wn).grid(row=0,column=1)
+lastname=Label(wn,text="Last Name").grid(row=1,column=0)
+e2=Entry(wn).grid(row=1,column=1)
+username=Label(wn,text="Username").grid(row=2,column=0)
+e3=Entry(wn).grid(row=2,column=1)
+email=Label(wn,text="Email").grid(row=3,column=0)
+e4=Entry(wn).grid(row=3,column=1)
+password=Label(wn,text="Password").grid(row=4,column=0)
+e5=Entry(wn).grid(row=4,column=1)
+contact=Label(wn,text="Contact").grid(row=5,column=0)
+e6=Entry(wn).grid(row=5,column=1)
+submit=Button(wn,text="Submit").grid(row=7,column=1)
+
+wn.mainloop()
